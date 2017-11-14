@@ -72,6 +72,7 @@ footer {
 input {
   width: 100%;
   height: 30px;
+  margin: 10px 0;
 }
 
 .furniture img {
@@ -80,8 +81,32 @@ input {
   width: 100%;
 }
 
+.furniture article {
+  margin-bottom: 20px;
+}
+
+.maybe img {
+  width: 45%;
+}
+
+.reserver {
+  width: 50%;
+  //padding: 0 25%;
+}
+
 .flex {
   display: flex;
+  justify-content: flex-start;
+}
+
+.knap {
+  border-style: groove;
+  padding: 10px 20px;
+}
+
+.knap:active {
+  position: relative;
+  top: 2px;
 }
 
 /*Anders kode*/
@@ -128,11 +153,11 @@ input {
 
     .furniture {
       display: grid;
-      grid-template-columns: 25% 50% 25%;
-      grid-template-areas: "head head head"
-                            ". search ."
-                            "gsec2 gsec1 gsec3"
-                            "gsec4 gsec1 gsec5"
+      grid-template-columns: 20% 55% 25%;
+      grid-template-areas: " head head head"
+                            ". . search"
+                            ". gsec1 gsec3"
+                            ". gsec1 gsec2"
                             "foot foot foot"; }
 
     header {
