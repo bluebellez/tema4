@@ -59,6 +59,16 @@ input {
   height: 30px;
 }
 
+.furniture img {
+  max-width: 400px;
+  max-height: 400px;
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
 /*Anders kode*/
 
 /*Louise kode*/
@@ -76,11 +86,11 @@ input {
 
     .furniture {
       display: grid;
-      grid-template-columns: 33% 33% 33%;
+      grid-template-columns: 25% 50% 25%;
       grid-template-areas: "head head head"
                             ". search ."
-                            "gsec1 gsec2 gsec3"
-                            "gsec4 gsec5 gsec6"
+                            "gsec2 gsec1 gsec3"
+                            "gsec4 gsec1 gsec5"
                             "foot foot foot"; }
 
     header {
