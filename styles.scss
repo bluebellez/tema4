@@ -1,18 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed');
 
-$logoskrifttype: 'Amatic SC', serif;
+$overskrift: 'Amatic SC', serif;
+$tekst: 'Barlow Semi Condensed', serif;
 
 * {
   box-sizing: border-box; }
 
 header {
   width: 100%;
+  height: 100px;
   background-image: url("https://i.pinimg.com/originals/f5/50/09/f5500906f755887e92ee55912972e8b2.jpg");
   top: 0;
+  border-radius: 5px;
 }
 body {
-  background-color: lightseagreen;
-  font-family: $logoskrifttype, Serif;
+  background-color: whitesmoke;
+  font-family: $overskrift, Serif;
 }
 
 nav {
@@ -27,20 +31,31 @@ ul {
 }
 
 li {
-  font-family: $logoskrifttype, Serif;
+  font-family: $overskrift, Serif;
+  font-size: 28pt;
   font-weight: bolder;
-  font-size: 24pt;
 }
 
 p{
-  font-family: $logoskrifttype, Serif;
+  font-family: $tekst, Serif;
   font-size: 14pt;
+}
+.foottext {
+  font-family: $tekst, Serif;
+  font-size: 14pt;
+}
+
+.overskrift {
+  text-align: center;
+  font-family: $overskrift,Serif;
+  font-size: 24pt;
   font-weight: bolder;
 }
 footer {
   background-image: url("https://i.pinimg.com/originals/f5/50/09/f5500906f755887e92ee55912972e8b2.jpg");
-  height: 90px;
+  height: 230px;
   width: 100%;
+  border-radius: 5px;
 }
 .foot {
   margin: 0;
@@ -74,7 +89,34 @@ input {
 /*Louise kode*/
 
 /*Jessie kode*/
-
+.auktion1{
+  font-size: 16pt;
+}
+.auktion2 {
+  font-size: 16pt;
+}
+.auktion3 {
+  font-size: 16pt;
+}
+.auktion4 {
+  font-size: 16pt;
+  text-align: center;
+}
+.stol {
+  align-content: center;
+}
+.bord1 {
+  align-content: center;
+}
+.bord2 {
+  align-content: center;
+}
+.decor1 {
+  align-content: center;
+}
+.decor2 {
+  float: right;
+}
 
 /*Grid*/
 @supports (grid-area: auto) {
@@ -82,7 +124,7 @@ input {
     body {
       display: grid;
       grid-template-columns: 33% 33% 33%;
-      grid-template-areas: "head head head" "gsec1 gsec2 gsec3" "gsec4 gsec5 gsec6" "foot foot foot"; }
+      grid-template-areas: "head head head" "gsec1 gsec2 gsec3" "gsec4 gsec5 gsec6" "gsec7 gsec8 gsec9" "foot foot foot"; }
 
     .furniture {
       display: grid;
