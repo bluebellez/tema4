@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box; }
+
+header {
+  width: 100%;
+  background-image: url("https://i.pinimg.com/originals/6f/24/68/6f2468edf0ab3ed7a0a33670d1efaaf3.jpg");
+  top: 0;
+}
+body {
+  background-color: snow;
+}
+
+nav {
+  padding-bottom: 5px; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around}
+
+li {
+  font-family: "Times New Roman", sans-serif;
+  font-weight: bold;
+  font-size: 14pt; }
+
+.foot {
+  margin: 0;
+  font-size: 10pt;
+  float: left;
+  padding-left: 5px; }
+/*Anna kode*/
+
+/*Anders kode*/
+
+/*Louise kode*/
+
+/*Jessie kode*/
+
+
+/*Grid*/
+@supports (grid-area: auto) {
+  @media screen and (min-width: 600px) {
+    body {
+      display: grid;
+      grid-template-columns: 33% 33% 33%;
+      grid-template-areas: "head head head" "gsec1 gsec2 gsec3" "gsec4 gsec5 gsec6" "foot foot foot"; }
+
+    header {
+      grid-area: head; }
+
+    .sec1 {
+      grid-area: gsec1; }
+
+    .sec2 {
+      grid-area: gsec2; }
+
+    .sec3 {
+      grid-area: gsec3; }
+
+    .sec4 {
+      grid-area: gsec4; }
+
+    .sec5 {
+      grid-area: gsec5; }
+
+    .sec6 {
+      grid-area: gsec6; }
+
+    footer {
+      grid-area: foot; } } }
