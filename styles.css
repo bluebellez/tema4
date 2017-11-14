@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box; }
 
@@ -31,6 +32,10 @@ li {
   padding-left: 5px; }
 
 /*Anna kode*/
+input {
+  width: 100%;
+  height: 30px; }
+
 /*Anders kode*/
 /*Louise kode*/
 /*Jessie kode*/
@@ -41,6 +46,11 @@ li {
       display: grid;
       grid-template-columns: 33% 33% 33%;
       grid-template-areas: "head head head" "gsec1 gsec2 gsec3" "gsec4 gsec5 gsec6" "foot foot foot"; }
+
+    .m├©bler {
+      display: grid;
+      grid-template-columns: 33% 33% 33%;
+      grid-template-areas: "head head head" "sec1 sec1 sec1" "foot foot foot"; }
 
     header {
       grid-area: head; }
