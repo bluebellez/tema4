@@ -1,13 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC");
 * {
   box-sizing: border-box; }
 
 header {
   width: 100%;
-  background-image: url("https://i.pinimg.com/originals/6f/24/68/6f2468edf0ab3ed7a0a33670d1efaaf3.jpg");
+  background-image: url("https://i.pinimg.com/originals/f5/50/09/f5500906f755887e92ee55912972e8b2.jpg");
   top: 0; }
 
 body {
-  background-color: snow; }
+  background-color: lightseagreen;
+  font-family: "Amatic SC", serif, Serif; }
 
 nav {
   padding-bottom: 5px; }
@@ -20,9 +22,18 @@ ul {
   justify-content: space-around; }
 
 li {
-  font-family: "Times New Roman", sans-serif;
-  font-weight: bold;
-  font-size: 14pt; }
+  font-family: "Amatic SC", serif, Serif;
+  font-weight: bolder;
+  font-size: 24pt; }
+
+p {
+  font-family: "Amatic SC", serif, Serif;
+  font-size: 14pt;
+  font-weight: bolder; }
+
+footer {
+  background-image: url("https://i.pinimg.com/originals/f5/50/09/f5500906f755887e92ee55912972e8b2.jpg");
+  height: 90px; }
 
 .foot {
   margin: 0;
