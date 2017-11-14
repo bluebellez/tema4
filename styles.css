@@ -33,7 +33,8 @@ p {
 
 footer {
   background-image: url("https://i.pinimg.com/originals/f5/50/09/f5500906f755887e92ee55912972e8b2.jpg");
-  height: 90px; }
+  height: 90px;
+  width: 100%; }
 
 .foot {
   margin: 0;
