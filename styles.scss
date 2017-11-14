@@ -1,13 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+$logoskrifttype: 'Amatic SC', serif;
+
 * {
   box-sizing: border-box; }
 
 header {
   width: 100%;
-  background-image: url("https://i.pinimg.com/originals/6f/24/68/6f2468edf0ab3ed7a0a33670d1efaaf3.jpg");
+  background-image: url("https://i.pinimg.com/originals/f5/50/09/f5500906f755887e92ee55912972e8b2.jpg");
   top: 0;
 }
 body {
-  background-color: snow;
+  background-color: lightseagreen;
+  font-family: $logoskrifttype, Serif;
 }
 
 nav {
@@ -18,18 +23,33 @@ ul {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: space-around}
+  justify-content: space-around
+}
 
 li {
-  font-family: "Times New Roman", sans-serif;
-  font-weight: bold;
-  font-size: 14pt; }
+  font-family: $logoskrifttype, Serif;
+  font-weight: bolder;
+  font-size: 24pt;
+}
 
+p{
+  font-family: $logoskrifttype, Serif;
+  font-size: 14pt;
+  font-weight: bolder;
+}
+footer {
+  background-image: url("https://i.pinimg.com/originals/f5/50/09/f5500906f755887e92ee55912972e8b2.jpg");
+  height: 90px;
+  width: 100%;
+}
 .foot {
   margin: 0;
   font-size: 10pt;
   float: left;
-  padding-left: 5px; }
+  padding-left: 5px;
+}
+
+
 
 /*Anna kode*/
 //.test {color: red;}
@@ -53,14 +73,6 @@ input {
       display: grid;
       grid-template-columns: 33% 33% 33%;
       grid-template-areas: "head head head" "gsec1 gsec2 gsec3" "gsec4 gsec5 gsec6" "foot foot foot"; }
-
-    .møbler {
-      display: grid;
-      grid-template-columns: 33% 33% 33%;
-      grid-template-areas:  "head head head"
-                            "sec1 sec1 sec1"
-                            "foot foot foot";
-    }
 
     header {
       grid-area: head; }
