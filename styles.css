@@ -1,3 +1,40 @@
+* {
+  box-sizing: border-box; }
 
+/*Anna kode*/
+/*Anders kode*/
+/*Louise kode*/
+/*Jessie kode*/
+/*Grid*/
+@supports (grid-area: auto) {
+  @media screen and (min-width: 600px) {
+    body {
+      display: grid;
+      grid-template-columns: 33% 33% 33%;
+      grid-template-areas: "head head" "gsec2 gsec1" "gsec3 gsec4" "gsec6 gsec5" "foot foot"; }
+
+    header {
+      grid-area: head; }
+
+    .sec1 {
+      grid-area: gsec1; }
+
+    .sec2 {
+      grid-area: gsec2; }
+
+    .sec3 {
+      grid-area: gsec3; }
+
+    .sec4 {
+      grid-area: gsec4; }
+
+    .sec5 {
+      grid-area: gsec5; }
+
+    .sec6 {
+      grid-area: gsec6; }
+
+    footer {
+      grid-area: foot; } } }
 
 /*# sourceMappingURL=styles.css.map */
