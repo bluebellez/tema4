@@ -74,6 +74,15 @@ input {
       grid-template-columns: 33% 33% 33%;
       grid-template-areas: "head head head" "gsec1 gsec2 gsec3" "gsec4 gsec5 gsec6" "foot foot foot"; }
 
+    .furniture {
+      display: grid;
+      grid-template-columns: 33% 33% 33%;
+      grid-template-areas: "head head head"
+                            ". search ."
+                            "gsec1 gsec2 gsec3"
+                            "gsec4 gsec5 gsec6"
+                            "foot foot foot"; }
+
     header {
       grid-area: head; }
 
@@ -94,6 +103,10 @@ input {
 
     .sec6 {
       grid-area: gsec6; }
+
+    .search {
+      grid-area: search;
+    }
 
     footer {
       grid-area: foot; }} }
