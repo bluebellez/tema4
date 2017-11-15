@@ -74,7 +74,7 @@ footer {
   padding-left: 5px; }
 
 /*Anna kode*/
-.tid {
+.tid_anna {
   margin-left: 25%; }
 
 input {
@@ -88,27 +88,27 @@ input {
 .furniture article {
   margin-bottom: 20px; }
 
-.fur_text {
+.text_anna {
   max-width: 512px;
   width: 99%; }
 
-.maybe img {
+.img_anna img {
   width: 49%; }
 
-.reserver {
+.reserver_anna {
   width: 50%;
   max-width: 512px;
   margin-left: 25%; }
 
-.flex {
+.flex_anna {
   display: flex;
   justify-content: center; }
 
-.knap {
+.knap_anna {
   border-style: groove;
   padding: 10px 20px; }
 
-.knap:active {
+.knap_anna:active {
   position: relative;
   top: 2px; }
 
@@ -218,7 +218,7 @@ input {
     footer {
       grid-area: foot; }
 
-    .tid {
+    .tid_anna {
       margin-left: 10%; }
 
     .sofa_anna {
@@ -226,12 +226,12 @@ input {
       max-height: 384px;
       width: 95%; }
 
-    .reserver {
+    .reserver_anna {
       width: 50%;
       max-width: 512px;
       margin-left: 0; }
 
-    .flex {
+    .flex_anna {
       display: flex;
       justify-content: flex-start; } } }
 

@@ -88,7 +88,7 @@ footer {
 /*Anna kode*/
 //.test {color: red;}
 
-.tid {
+.tid_anna {
   margin-left: 25%;
 }
 
@@ -106,32 +106,32 @@ input {
   margin-bottom: 20px;
 }
 
-.fur_text {
+.text_anna {
   max-width: 512px;
   width: 99%;
 }
 
-.maybe img {
+.img_anna img {
   width: 49%;
 }
 
-.reserver {
+.reserver_anna {
   width: 50%;
   max-width: 512px;
   margin-left: 25%;
 }
 
-.flex {
+.flex_anna {
   display: flex;
   justify-content: center;
 }
 
-.knap {
+.knap_anna {
   border-style: groove;
   padding: 10px 20px;
 }
 
-.knap:active {
+.knap_anna:active {
   position: relative;
   top: 2px;
 }
@@ -256,7 +256,7 @@ padding-top: 10px;
       grid-area: foot; }
 
     //Anna - desktop
-    .tid {
+    .tid_anna {
       margin-left: 10%;
     }
 
@@ -266,13 +266,13 @@ padding-top: 10px;
       width: 95%;
     }
 
-    .reserver {
+    .reserver_anna {
       width: 50%;
       max-width: 512px;
       margin-left: 0;
     }
 
-    .flex {
+    .flex_anna {
       display: flex;
       justify-content: flex-start;
     }
