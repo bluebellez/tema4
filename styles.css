@@ -5,7 +5,7 @@
 
 header {
   width: 100%;
-  height: 100px;
+  height: 120px;
   background-image: url("https://i.pinimg.com/originals/f5/50/09/f5500906f755887e92ee55912972e8b2.jpg");
   top: 0;
   border-radius: 5px; }
@@ -20,22 +20,47 @@ nav {
 ul {
   list-style-type: none;
   margin: 0;
+  margin-top: 30px;
   padding: 0;
   display: flex;
   justify-content: space-around; }
 
 li {
   font-family: "Amatic SC", serif, Serif;
-  font-size: 28pt;
+  font-size: 30pt;
   font-weight: bolder; }
 
 p {
   font-family: "Barlow Semi Condensed", serif, Serif;
   font-size: 14pt; }
 
+footer {
+  background-image: url("https://i.pinimg.com/originals/f5/50/09/f5500906f755887e92ee55912972e8b2.jpg");
+  height: 260px;
+  width: 100%;
+  border-radius: 5px; }
+
+.logo {
+  width: 20%;
+  float: left;
+  display: block;
+  margin-top: 15px;
+  margin-left: 30px;
+  margin-right: auto; }
+
 .foottext {
   font-family: "Barlow Semi Condensed", serif, Serif;
-  font-size: 14pt; }
+  font-size: 16pt;
+  font-weight: bolder; }
+
+.fb {
+  float: right; }
+
+.social {
+  font-family: "Barlow Semi Condensed", serif, Serif;
+  font-size: 18pt;
+  font-weight: bolder;
+  float: right; }
 
 .overskrift {
   text-align: center;
@@ -43,11 +68,10 @@ p {
   font-size: 24pt;
   font-weight: bolder; }
 
-footer {
-  background-image: url("https://i.pinimg.com/originals/f5/50/09/f5500906f755887e92ee55912972e8b2.jpg");
-  height: 230px;
-  width: 100%;
-  border-radius: 5px; }
+.headline {
+  font-family: "Amatic SC", serif;
+  font-size: 50pt;
+  text-align: center; }
 
 .foot {
   margin: 0;
