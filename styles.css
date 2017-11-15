@@ -1,14 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Amatic+SC");
+@import url("https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed");
 * {
   box-sizing: border-box; }
 
 header {
   width: 100%;
+  height: 120px;
   background-image: url("https://i.pinimg.com/originals/f5/50/09/f5500906f755887e92ee55912972e8b2.jpg");
-  top: 0; }
+  top: 0;
+  border-radius: 5px; }
 
 body {
-  background-color: lightseagreen;
+  background-color: whitesmoke;
   font-family: "Amatic SC", serif, Serif; }
 
 nav {
@@ -17,24 +20,58 @@ nav {
 ul {
   list-style-type: none;
   margin: 0;
+  margin-top: 30px;
   padding: 0;
   display: flex;
   justify-content: space-around; }
 
 li {
   font-family: "Amatic SC", serif, Serif;
-  font-weight: bolder;
-  font-size: 24pt; }
+  font-size: 30pt;
+  font-weight: bolder; }
 
 p {
-  font-family: "Amatic SC", serif, Serif;
-  font-size: 14pt;
-  font-weight: bolder; }
+  font-family: "Barlow Semi Condensed", serif, Serif;
+  font-size: 14pt; }
 
 footer {
   background-image: url("https://i.pinimg.com/originals/f5/50/09/f5500906f755887e92ee55912972e8b2.jpg");
-  height: 90px;
-  width: 100%; }
+  height: 260px;
+  width: 100%;
+  border-radius: 5px; }
+
+.logo {
+  width: 20%;
+  float: left;
+  display: block;
+  margin-top: 15px;
+  margin-left: 30px;
+  margin-right: auto; }
+
+.foottext {
+  font-family: "Barlow Semi Condensed", serif, Serif;
+  font-size: 16pt;
+  font-weight: bolder; }
+
+.fb {
+  float: right; }
+
+.social {
+  font-family: "Barlow Semi Condensed", serif, Serif;
+  font-size: 18pt;
+  font-weight: bolder;
+  float: right; }
+
+.overskrift {
+  text-align: center;
+  font-family: "Amatic SC", serif, Serif;
+  font-size: 24pt;
+  font-weight: bolder; }
+
+.headline {
+  font-family: "Amatic SC", serif;
+  font-size: 50pt;
+  text-align: center; }
 
 .foot {
   margin: 0;
@@ -45,16 +82,42 @@ footer {
 /*Anna kode*/
 /*Anders kode*/
 /*Louise kode*/
-
-
 /*Jessie kode*/
+.auktion1 {
+  font-size: 16pt; }
+
+.auktion2 {
+  font-size: 16pt; }
+
+.auktion3 {
+  font-size: 16pt; }
+
+.auktion4 {
+  font-size: 16pt;
+  text-align: center; }
+
+.stol {
+  align-content: center; }
+
+.bord1 {
+  align-content: center; }
+
+.bord2 {
+  align-content: center; }
+
+.decor1 {
+  align-content: center; }
+
+.decor2 {
+  float: right; }
+
 /*Grid*/
 @supports (grid-area: auto) {
   @media screen and (min-width: 600px) {
     body {
       display: grid;
       grid-template-columns: 33% 33% 33%;
-      grid-template-areas: "head head head" "gsec1 gsec2 gsec3" "gsec4 gsec5 gsec6" "foot foot foot"; }
+      grid-template-areas: "head head head" "gsec1 gsec2 gsec3" "gsec4 gsec5 gsec6" "gsec7 gsec8 gsec9" "foot foot foot"; }
 
     header {
       grid-area: head; }
