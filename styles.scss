@@ -27,14 +27,16 @@ ul {
   list-style-type: none;
   margin: 0;
   margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
   padding: 0;
   display: flex;
-  justify-content: space-around
+  justify-content: space-around;
 }
 
 li {
   font-family: $overskrift, Serif;
-  font-size: 30pt;
+  font-size: 20pt;
   font-weight: bolder;
 }
 
@@ -49,21 +51,33 @@ footer {
   width: 100%;
   border-radius: 5px;
 }
-.logo {
-  width: 26%;
+.logo2 {
+  width: 400px;
   float: left;
   display: block;
-  margin-top: 0;
-  margin-left: 30px;
+  margin-top: 5px;
+  margin-left: 8px;
   margin-right: auto;
+}
+.ticket {
+  float: right;
+  display: block;
+  margin-top: 10px;
+}
+.tickettext {
+  float: right;
+  display: block;
+  margin-top: 10px;
+  margin-right: 10px;
 }
 .foottext {
   font-family: $tekst, Serif;
   font-size: 16pt;
   font-weight: bolder;
 }
-.fb {
+.social {
   float: right;
+  position: relative;
 }
 .social {
   font-family: $tekst, Serif;
@@ -190,4 +204,9 @@ padding-top: 10px;
       grid-area: gsec6; }
 
     footer {
-      grid-area: foot; } } }
+      grid-area: foot; }
+
+.logo {
+  width: 30%;
+}
+  } }
