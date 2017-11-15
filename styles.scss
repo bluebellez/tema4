@@ -69,34 +69,42 @@ footer {
 /*Anna kode*/
 //.test {color: red;}
 
+.tid {
+  margin-left: 25%;
+}
+
 input {
-  width: 100%;
+  width: 99%;
   height: 30px;
   margin: 10px 0;
 }
 
-.furniture img {
-  max-width: 400px;
-  max-height: 400px;
-  width: 100%;
+.sofa_anna {
+  width: 99%;
 }
 
 .furniture article {
   margin-bottom: 20px;
 }
 
+.fur_text {
+  max-width: 512px;
+  width: 99%;
+}
+
 .maybe img {
-  width: 45%;
+  width: 49%;
 }
 
 .reserver {
   width: 50%;
-  //padding: 0 25%;
+  max-width: 512px;
+  margin-left: 25%;
 }
 
 .flex {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .knap {
@@ -145,6 +153,7 @@ input {
 
 /*Grid*/
 @supports (grid-area: auto) {
+
   @media screen and (min-width: 600px) {
     body {
       display: grid;
@@ -153,11 +162,11 @@ input {
 
     .furniture {
       display: grid;
-      grid-template-columns: 20% 55% 25%;
-      grid-template-areas: " head head head"
+      grid-template-columns: 25% 50% 25%;
+      grid-template-areas: "head head head"
                             ". . search"
-                            ". gsec1 gsec3"
-                            ". gsec1 gsec2"
+                            "gsec4 gsec1 gsec3"
+                            "gsec4 gsec1 gsec2"
                             "foot foot foot"; }
 
     header {
@@ -186,4 +195,29 @@ input {
     }
 
     footer {
-      grid-area: foot; }} }
+      grid-area: foot; }
+
+    //Anna - desktop
+    .tid {
+      margin-left: 10%;
+    }
+
+    .sofa_anna {
+      max-width: 512px;
+      max-height: 384px;
+      width: 95%;
+    }
+
+    .reserver {
+      width: 50%;
+      max-width: 512px;
+      margin-left: 0;
+    }
+
+    .flex {
+      display: flex;
+      justify-content: flex-start;
+    }
+
+  }
+}
