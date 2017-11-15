@@ -96,6 +96,29 @@ footer {
 
 /*Louise kode*/
 
+.sofa{
+  padding-bottom: 20px;
+}
+.statue{
+  padding-bottom: 10px;
+}
+.tekst{
+  font-size: 12pt;
+}
+.tekst{
+  text-align: center;
+}
+.tekst2{
+  font-size: 12pt;
+}
+.tekst2{
+  text-align: center;
+}
+.gsec1{
+padding-top: 10px;
+}
+
+
 /*Jessie kode*/
 
 .auktion1{
@@ -133,7 +156,7 @@ footer {
     body {
       display: grid;
       grid-template-columns: 33% 33% 33%;
-      grid-template-areas: "head head head" "gsec1 gsec2 gsec3" "gsec4 gsec5 gsec6" "gsec7 gsec8 gsec9" "foot foot foot"; }
+      grid-template-areas: "head head head" "gsec1 gsec2 gsec3" "gsec4 gsec5 gsec6" "gsec7 gsec7 gsec7" "foot foot foot"; }
 
     header {
       grid-area: head; }
