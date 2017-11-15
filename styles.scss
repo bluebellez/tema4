@@ -9,7 +9,7 @@ $tekst: 'Barlow Semi Condensed', serif;
 
 header {
   width: 100%;
-  height: 120px;
+  height: 160px;
   background-image: url("https://i.pinimg.com/originals/f5/50/09/f5500906f755887e92ee55912972e8b2.jpg");
   top: 0;
   border-radius: 5px;
@@ -26,7 +26,7 @@ nav {
 ul {
   list-style-type: none;
   margin: 0;
-  margin-top: 30px;
+  margin-top: 50px;
   padding: 0;
   display: flex;
   justify-content: space-around
@@ -50,10 +50,10 @@ footer {
   border-radius: 5px;
 }
 .logo {
-  width: 20%;
+  width: 26%;
   float: left;
   display: block;
-  margin-top: 15px;
+  margin-top: 0;
   margin-left: 30px;
   margin-right: auto;
 }
@@ -71,12 +71,7 @@ footer {
   font-weight: bolder;
   float: right;
 }
-.overskrift {
-  text-align: center;
-  font-family: $overskrift,Serif;
-  font-size: 24pt;
-  font-weight: bolder;
-}
+
 .headline {
   font-family: $overskrift;
   font-size: 50pt;
@@ -121,14 +116,29 @@ padding-top: 10px;
 
 /*Jessie kode*/
 
+.overskrift {
+  text-align: center;
+  font-family: $overskrift,Serif;
+  font-size: 28pt;
+  font-weight: bolder;
+}
+
+.auktion0 {
+  font-weight: bolder;
+  font-size: 18pt;
+  text-align: center;
+}
 .auktion1{
   font-size: 16pt;
+  text-align: center;
 }
 .auktion2 {
   font-size: 16pt;
+  text-align: center;
 }
 .auktion3 {
   font-size: 16pt;
+  text-align: center;
 }
 .auktion4 {
   font-size: 16pt;
