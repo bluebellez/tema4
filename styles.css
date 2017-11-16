@@ -81,6 +81,35 @@ footer {
   padding-left: 5px; }
 
 /*Anna kode*/
+.tid_anna {
+  margin-left: 25%; }
+
+input {
+  width: 99%;
+  height: 30px;
+  margin: 10px 0; }
+
+.sofa_anna {
+  width: 99%; }
+
+.furniture article {
+  margin-bottom: 20px; }
+
+.text_anna {
+  max-width: 512px;
+  width: 99%; }
+
+.h1_anna {
+  margin-left: 10%; }
+
+.img_anna img {
+  width: 49%; }
+
+form {
+  margin-left: 10%;
+  width: 80%;
+  margin-bottom: 10px; }
+
 /*Anders kode*/
 .andersh2 {
   text-align: center;
@@ -175,6 +204,11 @@ footer {
       grid-template-columns: 33% 33% 33%;
       grid-template-areas: "head head head" "gsec1 . gsec3" "gsec4 gsec5 gsec6" "gsec7 gsec8 gsec9" "gsec10 gsec11 gsec12" "foot foot foot"; }
 
+    .furniture {
+      display: grid;
+      grid-template-columns: 25% 50% 25%;
+      grid-template-areas: "head head head" ". . search" "gsec5 gsec1 gsec3" "gsec4 gsec1 gsec2" "foot foot foot"; }
+
     header {
       grid-area: head; }
 
@@ -214,10 +248,21 @@ footer {
     .sec12 {
       grid-area: gsec12; }
 
+    .search {
+      grid-area: search; }
+
     footer {
       grid-area: foot; }
 
     .logo {
-      width: 30%; } } }
+      width: 30%; }
+
+    .tid_anna {
+      margin-left: 10%; }
+
+    .sofa_anna {
+      max-width: 512px;
+      max-height: 384px;
+      width: 95%; } } }
 
 /*# sourceMappingURL=styles.css.map */
