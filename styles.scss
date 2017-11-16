@@ -68,6 +68,8 @@ footer {
   font-size: 18pt;
   font-weight: bolder;
   float: right;
+  height: 60px;
+  width: 60px;
 }
 
 .headline {
@@ -115,7 +117,7 @@ footer {
   width: 49%;
 }
 
-form{
+.form{
   margin-left: 10%;
   width: 80%;
   margin-bottom: 10px;
@@ -136,10 +138,13 @@ form{
   padding-bottom: 20px;
   padding-top: 20px;
   padding-left: 10px;
+  height: auto;
+  width: 100%;
 }
 .statue{
   padding-top: 20px;
   padding-right: 10px;
+  display: none;
 }
 
 .tekst{
@@ -154,11 +159,16 @@ padding-top: 10px;
 .stol{
   padding-bottom: 100px;
   padding-left: 10px;
+  height: 500px;
+  width: 100%;
 }
 .kommode{
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 55px;
+  display: none;
+  height: 500px;
+  width: 100%;
 }
 .logo2{
   align-items: center;
@@ -173,9 +183,7 @@ padding-top: 10px;
   font-size: 28pt;
   font-weight: bolder;
 }
-.form {
-  float: right;
-}
+
 .auktion0 {
   font-weight: bolder;
   font-size: 18pt;
@@ -220,13 +228,13 @@ padding-top: 10px;
     body {
       display: grid;
       grid-template-columns: 33% 33% 33%;
-      grid-template-areas: "head head head" "gsec1 gsec2 gsec3" "gsec4 gsec5 gsec6" "gsec7 gsec8 gsec9"
+      grid-template-areas: "head head head" "gsec1 gsec2 ." "gsec4 gsec5 gsec6" "gsec7 gsec8 gsec9"
       "foot foot foot"; }
 
     .jessie{
       display: grid;
-      grid-template-columns: 33% 33% 33%;
-      grid-template-areas: "head head head" "gsec1 . gsec3" "gsec4 gsec5 gsec6" "gsec7 gsec8 gsec9"
+      grid-template-columns: 25% 50% 25%;
+      grid-template-areas: "head head head" "gsec3 . search" "gsec4 gsec5 gsec6" "gsec7 gsec8 gsec9"
       "gsec10 gsec11 gsec12" "foot foot foot"; }
 
     //Anna
@@ -234,7 +242,7 @@ padding-top: 10px;
       display: grid;
       grid-template-columns: 25% 50% 25%;
       grid-template-areas: "head head head"
-      ". . search"
+      "gsec5 . search"
       "gsec5 gsec1 gsec3"
       "gsec4 gsec1 gsec2"
       "foot foot foot"; }
@@ -242,10 +250,10 @@ padding-top: 10px;
 
     //anders
     .FAQ {display: grid;
-      grid-template-columns: 20% 60% 20%;
+      grid-template-columns: 25% 50% 25%;
       grid-template-areas:
               "head head head"
-              "gsec3 gFAQ1 ."
+              "gsec3 gFAQ1 search"
               ". gFAQ2 ."
               ". gFAQ3 ."
               ". gFAQ4 ."
@@ -339,6 +347,15 @@ padding-top: 10px;
       width: 95%;
     }
     //anna slut
+
+    //Louise
+    .statue {
+      display: inherit;
+    }
+
+    .kommode {
+      display: inherit;
+    }
 
   }
 }

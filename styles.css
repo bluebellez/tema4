@@ -60,7 +60,9 @@ footer {
   font-family: "Barlow Semi Condensed", serif, Serif;
   font-size: 18pt;
   font-weight: bolder;
-  float: right; }
+  float: right;
+  height: 60px;
+  width: 60px; }
 
 .headline {
   font-family: "Amatic SC", serif;
@@ -98,7 +100,7 @@ footer {
 .img_anna img {
   width: 49%; }
 
-form {
+.form {
   margin-left: 10%;
   width: 80%;
   margin-bottom: 10px; }
@@ -115,11 +117,14 @@ form {
 .sofa {
   padding-bottom: 20px;
   padding-top: 20px;
-  padding-left: 10px; }
+  padding-left: 10px;
+  height: auto;
+  width: 100%; }
 
 .statue {
   padding-top: 20px;
-  padding-right: 10px; }
+  padding-right: 10px;
+  display: none; }
 
 .tekst {
   font-size: 14pt;
@@ -131,12 +136,17 @@ form {
 
 .stol {
   padding-bottom: 100px;
-  padding-left: 10px; }
+  padding-left: 10px;
+  height: 500px;
+  width: 100%; }
 
 .kommode {
   padding-left: 10px;
   padding-right: 10px;
-  padding-bottom: 55px; }
+  padding-bottom: 55px;
+  display: none;
+  height: 500px;
+  width: 100%; }
 
 .logo2 {
   align-items: center;
@@ -148,9 +158,6 @@ form {
   font-family: "Amatic SC", serif, Serif;
   font-size: 28pt;
   font-weight: bolder; }
-
-.form {
-  float: right; }
 
 .auktion0 {
   font-weight: bolder;
@@ -195,22 +202,22 @@ form {
     body {
       display: grid;
       grid-template-columns: 33% 33% 33%;
-      grid-template-areas: "head head head" "gsec1 gsec2 gsec3" "gsec4 gsec5 gsec6" "gsec7 gsec8 gsec9" "foot foot foot"; }
+      grid-template-areas: "head head head" "gsec1 gsec2 ." "gsec4 gsec5 gsec6" "gsec7 gsec8 gsec9" "foot foot foot"; }
 
     .jessie {
       display: grid;
-      grid-template-columns: 33% 33% 33%;
-      grid-template-areas: "head head head" "gsec1 . gsec3" "gsec4 gsec5 gsec6" "gsec7 gsec8 gsec9" "gsec10 gsec11 gsec12" "foot foot foot"; }
+      grid-template-columns: 25% 50% 25%;
+      grid-template-areas: "head head head" "gsec3 . search" "gsec4 gsec5 gsec6" "gsec7 gsec8 gsec9" "gsec10 gsec11 gsec12" "foot foot foot"; }
 
     .furniture {
       display: grid;
       grid-template-columns: 25% 50% 25%;
-      grid-template-areas: "head head head" ". . search" "gsec5 gsec1 gsec3" "gsec4 gsec1 gsec2" "foot foot foot"; }
+      grid-template-areas: "head head head" "gsec5 . search" "gsec5 gsec1 gsec3" "gsec4 gsec1 gsec2" "foot foot foot"; }
 
     .FAQ {
       display: grid;
-      grid-template-columns: 20% 60% 20%;
-      grid-template-areas: "head head head" "gsec3 gFAQ1 ." ". gFAQ2 ." ". gFAQ3 ." ". gFAQ4 ." ". gFAQ5 ." ". gFAQ6 ." ". gFAQ7 ." ". gFAQ8 ." ". gFAQ9 ." "foot foot foot"; }
+      grid-template-columns: 25% 50% 25%;
+      grid-template-areas: "head head head" "gsec3 gFAQ1 search" ". gFAQ2 ." ". gFAQ3 ." ". gFAQ4 ." ". gFAQ5 ." ". gFAQ6 ." ". gFAQ7 ." ". gFAQ8 ." ". gFAQ9 ." "foot foot foot"; }
 
     .FAQsec1 {
       grid-area: gFAQ1;
@@ -292,6 +299,12 @@ form {
     .sofa_anna {
       max-width: 512px;
       max-height: 384px;
-      width: 95%; } } }
+      width: 95%; }
+
+    .statue {
+      display: inherit; }
+
+    .kommode {
+      display: inherit; } } }
 
 /*# sourceMappingURL=styles.css.map */
