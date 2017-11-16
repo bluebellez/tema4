@@ -264,6 +264,9 @@ form {
     .sofa_anna {
       max-width: 512px;
       max-height: 384px;
-      width: 95%; } } }
+      width: 95%; }
+
+    .article_anna {
+      margin: 0 10%; } } }
 
 /*# sourceMappingURL=styles.css.map */
