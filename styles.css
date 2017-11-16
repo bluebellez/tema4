@@ -206,7 +206,7 @@ footer {
 
     .jessie {
       display: grid;
-      grid-template-columns: 25% 50% 25%;
+      grid-template-columns: 33% 33% 33%;
       grid-template-areas: "head head head" "gsec3 . search" "gsec4 gsec5 gsec6" "gsec7 gsec8 gsec9" "gsec10 gsec11 gsec12" "foot foot foot"; }
 
     .furniture {
