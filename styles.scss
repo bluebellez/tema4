@@ -13,6 +13,7 @@ header {
   background-image: url("https://i.pinimg.com/originals/f5/50/09/f5500906f755887e92ee55912972e8b2.jpg");
   top: 0;
   border-radius: 5px;
+  display: flex;
 }
 body {
   background-color: whitesmoke;
@@ -21,6 +22,7 @@ body {
 
 nav {
   padding-bottom: 5px;
+  display: flex;
 }
 a {
   text-decoration: none;
@@ -28,9 +30,9 @@ a {
 }
 ul {
   list-style-type: none;
-  margin: 20px;
-  padding: 20px;
-  display: flex;
+  margin: 0;
+  padding: 0;
+  //display: flex;
   justify-content: space-around;
 }
 
@@ -52,14 +54,12 @@ footer {
   border-radius: 5px;
 }
 .logo2 {
-  height: auto;
-  padding: ;
+  width: 50%;
+  padding: 0;
   float: left;
   display: block;
-  margin-top: 2px;
-  margin-left: 5px;
-  margin-right: auto;
-}
+  margin: 0;
+
 .foottext {
   font-family: $tekst, Serif;
   font-size: 16pt;
@@ -311,4 +311,4 @@ padding-top: 10px;
     //anna slut
 
   }
-}
+} }
