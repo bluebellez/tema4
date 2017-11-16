@@ -81,7 +81,7 @@ footer {
 .tid_anna {
   margin-left: 25%; }
 
-input {
+.search {
   width: 99%;
   height: 30px;
   margin: 10px 0; }
@@ -110,7 +110,10 @@ form {
 /*Anders kode*/
 .andersh2 {
   text-align: center;
-  font-size: 20px; }
+  font-size: 40px; }
+
+.andersh3 {
+  font-size: 25px; }
 
 /*Louise kode*/
 .sofa {
@@ -209,6 +212,40 @@ form {
       display: grid;
       grid-template-columns: 25% 50% 25%;
       grid-template-areas: "head head head" ". . search" "gsec5 gsec1 gsec3" "gsec4 gsec1 gsec2" "foot foot foot"; }
+
+    .FAQ {
+      display: grid;
+      grid-template-columns: 20% 60% 20%;
+      grid-template-areas: "head head head" "gsec3 gFAQ1 ." ". gFAQ2 ." ". gFAQ3 ." ". gFAQ4 ." ". gFAQ5 ." ". gFAQ6 ." ". gFAQ7 ." ". gFAQ8 ." ". gFAQ9 ." "foot foot foot"; }
+
+    .FAQsec1 {
+      grid-area: gFAQ1;
+      margin-top: 30px; }
+
+    .FAQsec2 {
+      grid-area: gFAQ2; }
+
+    .FAQsec3 {
+      grid-area: gFAQ3; }
+
+    .FAQsec4 {
+      grid-area: gFAQ4; }
+
+    .FAQsec5 {
+      grid-area: gFAQ5; }
+
+    .FAQsec6 {
+      grid-area: gFAQ6; }
+
+    .FAQsec7 {
+      grid-area: gFAQ7; }
+
+    .FAQsec8 {
+      grid-area: gFAQ8; }
+
+    .FAQsec9 {
+      grid-area: gFAQ9;
+      padding-bottom: 10px; }
 
     header {
       grid-area: head; }
