@@ -90,33 +90,84 @@ footer {
 }
 
 /*Anna kode*/
+.tid_anna {
+  margin-left: 25%;
+}
+
+input {
+  width: 99%;
+  height: 30px;
+  margin: 10px 0;
+}
+
+.sofa_anna {
+  width: 99%;
+}
+
+.furniture article {
+  margin-bottom: 20px;
+}
+
+.text_anna {
+  max-width: 512px;
+  width: 99%;
+}
+
+.h1_anna {
+  margin-left: 10%;
+}
+
+.img_anna img {
+  width: 49%;
+}
+
+form{
+  margin-left: 10%;
+  width: 80%;
+  margin-bottom: 10px;
+}
 
 /*Anders kode*/
 
+.andersh2{
+  text-align: center;
+  font-size: 20px;
+
+
+}
 /*Louise kode*/
 
 .sofa{
   padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 10px;
 }
 .statue{
-  padding-bottom: 10px;
+  padding-top: 17px;
+  padding-right: 10px;
 }
+
 .tekst{
-  font-size: 12pt;
-}
-.tekst{
+  font-size: 14pt;
   text-align: center;
-}
-.tekst2{
-  font-size: 12pt;
-}
-.tekst2{
-  text-align: center;
+  font-family: "Bodoni MT";
 }
 .gsec1{
 padding-top: 10px;
 }
 
+.logo2{
+  align-items: center;
+}
+.stol{
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+.kommode{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 30px;
+}
 
 /*Jessie kode*/
 
@@ -185,6 +236,17 @@ padding-top: 10px;
       grid-template-areas: "head head head" "gsec1 . gsec3" "gsec4 gsec5 gsec6" "gsec7 gsec8 gsec9"
       "gsec10 gsec11 gsec12" "foot foot foot"; }
 
+    //Anna
+    .furniture {
+      display: grid;
+      grid-template-columns: 25% 50% 25%;
+      grid-template-areas: "head head head"
+      ". . search"
+      "gsec5 gsec1 gsec3"
+      "gsec4 gsec1 gsec2"
+      "foot foot foot"; }
+    //anna slut
+
     header {
       grid-area: head; }
 
@@ -224,8 +286,29 @@ padding-top: 10px;
     .sec12 {
       grid-area: gsec12 }
 
+    //Anna
+    .search {
+      grid-area: search;
+    }
+    //anna slut
+
     footer {
       grid-area: foot; }
 
-.logo {
-  width: 30%; } } }
+    .logo {
+      width: 30%; }
+
+    //Anna - desktop
+    .tid_anna {
+      margin-left: 10%;
+    }
+
+    .sofa_anna {
+      max-width: 512px;
+      max-height: 384px;
+      width: 95%;
+    }
+    //anna slut
+
+  }
+}
