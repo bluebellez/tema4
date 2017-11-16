@@ -116,10 +116,11 @@ footer {
 /*Louise kode*/
 .sofa {
   padding-bottom: 20px;
-  padding-top: 20px;
+  padding-top: 155px;
   padding-left: 10px;
   height: auto;
-  width: 100%; }
+  width: 100%;
+  display: none; }
 
 .statue {
   padding-top: 20px;
@@ -135,17 +136,13 @@ footer {
   padding-top: 10px; }
 
 .stol {
-  padding-bottom: 100px;
   padding-left: 10px;
-  height: 500px;
-  width: 100%; }
+  height: 450px;
+  width: auto; }
 
 .kommode {
   padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 55px;
-  display: none;
-  height: 500px;
+  padding-top: 20px;
   width: 100%; }
 
 .logo2 {
@@ -202,7 +199,7 @@ footer {
     body {
       display: grid;
       grid-template-columns: 33% 33% 33%;
-      grid-template-areas: "head head head" "gsec1 gsec2 ." "gsec4 gsec5 gsec6" "gsec7 gsec8 gsec9" "foot foot foot"; }
+      grid-template-areas: "head head head" "gsec1 gsec2 ." "gsec7 gsec8 gsec9" "foot foot foot"; }
 
     .jessie {
       display: grid;
@@ -304,7 +301,10 @@ footer {
     .statue {
       display: inherit; }
 
+    .sofa {
+      display: inherit; }
+
     .kommode {
-      display: inherit; } } }
+      height: 700px; } } }
 
 /*# sourceMappingURL=styles.css.map */

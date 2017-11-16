@@ -136,10 +136,11 @@ footer {
 
 .sofa{
   padding-bottom: 20px;
-  padding-top: 20px;
+  padding-top: 155px;
   padding-left: 10px;
   height: auto;
   width: 100%;
+  display: none;
 }
 .statue{
   padding-top: 20px;
@@ -157,17 +158,16 @@ padding-top: 10px;
 }
 
 .stol{
-  padding-bottom: 100px;
+  //padding-bottom: 100px;
   padding-left: 10px;
-  height: 500px;
-  width: 100%;
+  height: 450px;
+  width: auto;
 }
 .kommode{
   padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 55px;
-  display: none;
-  height: 500px;
+  padding-top: 20px;
+  //padding-bottom: 15px;
+  //height: 700px;
   width: 100%;
 }
 .logo2{
@@ -228,7 +228,7 @@ padding-top: 10px;
     body {
       display: grid;
       grid-template-columns: 33% 33% 33%;
-      grid-template-areas: "head head head" "gsec1 gsec2 ." "gsec4 gsec5 gsec6" "gsec7 gsec8 gsec9"
+      grid-template-areas: "head head head" "gsec1 gsec2 ." "gsec7 gsec8 gsec9"
       "foot foot foot"; }
 
     .jessie{
@@ -353,8 +353,12 @@ padding-top: 10px;
       display: inherit;
     }
 
-    .kommode {
+    .sofa {
       display: inherit;
+    }
+
+    .kommode {
+      height: 700px;
     }
 
   }
