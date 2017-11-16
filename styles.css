@@ -3,6 +3,7 @@
 * {
   box-sizing: border-box; }
 
+/*Header*/
 header {
   width: 100%;
   height: 300px;
@@ -14,6 +15,7 @@ body {
   background-color: whitesmoke;
   font-family: "Amatic SC", serif, Serif; }
 
+/*Navigationsbar*/
 nav ul {
   padding-left: 0;
   display: flex;
@@ -41,6 +43,7 @@ p {
   font-family: "Barlow Semi Condensed", serif, Serif;
   font-size: 14pt; }
 
+/*Footer*/
 footer {
   background-image: url("https://i.pinimg.com/originals/f5/50/09/f5500906f755887e92ee55912972e8b2.jpg");
   height: 260px;
@@ -152,10 +155,6 @@ form {
 .form {
   float: right; }
 
-.searching {
-  width: 100%;
-  height: 20%; }
-
 .auktion0 {
   font-weight: bolder;
   font-size: 18pt;
@@ -192,6 +191,7 @@ form {
 .decor2 {
   float: right; }
 
+/*Jessie slut*/
 /*Grid*/
 @supports (grid-area: auto) {
   @media screen and (min-width: 600px) {
