@@ -77,25 +77,36 @@ footer {
 /*Anders kode*/
 /*Louise kode*/
 .sofa {
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 10px; }
 
 .statue {
+  padding-top: 17px;
+  padding-right: 10px;
   padding-bottom: 10px; }
 
 .tekst {
-  font-size: 12pt; }
+  font-size: 14pt; }
 
 .tekst {
-  text-align: center; }
-
-.tekst2 {
-  font-size: 12pt; }
-
-.tekst2 {
-  text-align: center; }
+  text-align: center;
+  font-family: "Bodoni MT"; }
 
 .gsec1 {
   padding-top: 10px; }
+
+.logo2 {
+  padding-top: 10px; }
+
+.stol {
+  padding-bottom: 10px;
+  padding-left: 10px; }
+
+.kommode {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 40px; }
 
 /*Jessie kode*/
 .overskrift {
