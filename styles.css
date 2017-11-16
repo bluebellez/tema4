@@ -49,166 +49,221 @@ footer {
   padding: 0;
   float: left;
   display: block;
+  margin: 0; }
+
+.foottext {
+  font-family: "Barlow Semi Condensed", serif, Serif;
+  font-size: 16pt;
+  font-weight: bolder; }
+
+.social {
+  float: right;
+  position: relative; }
+
+.social {
+  font-family: "Barlow Semi Condensed", serif, Serif;
+  font-size: 18pt;
+  font-weight: bolder;
+  float: right; }
+
+.headline {
+  font-family: "Amatic SC", serif;
+  font-size: 50pt;
+  text-align: center; }
+
+.foot {
   margin: 0;
-  /*Anna kode*/
-  /*Anders kode*/
-  /*Louise kode*/
-  /*Jessie kode*/
-  /*Grid*/ }
-  .logo2 .foottext {
-    font-family: "Barlow Semi Condensed", serif, Serif;
-    font-size: 16pt;
-    font-weight: bolder; }
-  .logo2 .social {
-    float: right;
-    position: relative; }
-  .logo2 .social {
-    font-family: "Barlow Semi Condensed", serif, Serif;
-    font-size: 18pt;
-    font-weight: bolder;
-    float: right; }
-  .logo2 .headline {
-    font-family: "Amatic SC", serif;
-    font-size: 50pt;
-    text-align: center; }
-  .logo2 .foot {
-    margin: 0;
-    font-size: 10pt;
-    float: left;
-    padding-left: 5px; }
-  .logo2 .tid_anna {
-    margin-left: 25%; }
-  .logo2 input {
-    width: 99%;
-    height: 30px;
-    margin: 10px 0; }
-  .logo2 .sofa_anna {
-    width: 99%; }
-  .logo2 .furniture article {
-    margin-bottom: 20px; }
-  .logo2 .text_anna {
-    max-width: 512px;
-    width: 99%; }
-  .logo2 .h1_anna {
-    margin-left: 10%; }
-  .logo2 .img_anna img {
-    width: 49%; }
-  .logo2 form {
-    margin-left: 10%;
-    width: 80%;
-    margin-bottom: 10px; }
-  .logo2 .andersh2 {
-    text-align: center;
-    font-size: 20px; }
-  .logo2 .sofa {
-    padding-bottom: 20px;
-    padding-top: 20px;
-    padding-left: 10px; }
-  .logo2 .statue {
-    padding-top: 17px;
-    padding-right: 10px; }
-  .logo2 .tekst {
-    font-size: 14pt;
-    text-align: center;
-    font-family: "Bodoni MT"; }
-  .logo2 .gsec1 {
-    padding-top: 10px; }
-  .logo2 .logo2 {
-    align-items: center; }
-  .logo2 .stol {
-    padding-bottom: 10px;
-    padding-left: 10px; }
-  .logo2 .kommode {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 30px; }
-  .logo2 .overskrift {
-    text-align: center;
-    font-family: "Amatic SC", serif, Serif;
-    font-size: 28pt;
-    font-weight: bolder; }
-  .logo2 .form {
-    float: right; }
-  .logo2 .searching {
-    width: 100%;
-    height: 20%; }
-  .logo2 .auktion0 {
-    font-weight: bolder;
-    font-size: 18pt;
-    text-align: center; }
-  .logo2 .auktion1 {
-    font-size: 16pt;
-    text-align: center; }
-  .logo2 .auktion2 {
-    font-size: 16pt;
-    text-align: center; }
-  .logo2 .auktion3 {
-    font-size: 16pt;
-    text-align: center; }
-  .logo2 .auktion4 {
-    font-size: 16pt;
-    text-align: center; }
-  .logo2 .stol {
-    align-content: center; }
-  .logo2 .bord1 {
-    align-content: center; }
-  .logo2 .bord2 {
-    align-content: center; }
-  .logo2 .decor1 {
-    align-content: center; }
-  .logo2 .decor2 {
-    float: right; }
-  @supports (grid-area: auto) {
-    @media screen and (min-width: 600px) {
-      .logo2 body {
-        display: grid;
-        grid-template-columns: 33% 33% 33%;
-        grid-template-areas: "head head head" "gsec1 gsec2 gsec3" "gsec4 gsec5 gsec6" "gsec7 gsec8 gsec9" "foot foot foot"; }
-      .logo2 .jessie {
-        display: grid;
-        grid-template-columns: 33% 33% 33%;
-        grid-template-areas: "head head head" "gsec1 . gsec3" "gsec4 gsec5 gsec6" "gsec7 gsec8 gsec9" "gsec10 gsec11 gsec12" "foot foot foot"; }
-      .logo2 .furniture {
-        display: grid;
-        grid-template-columns: 25% 50% 25%;
-        grid-template-areas: "head head head" ". . search" "gsec5 gsec1 gsec3" "gsec4 gsec1 gsec2" "foot foot foot"; }
-      .logo2 header {
-        grid-area: head; }
-      .logo2 .sec1 {
-        grid-area: gsec1; }
-      .logo2 .sec2 {
-        grid-area: gsec2; }
-      .logo2 .sec3 {
-        grid-area: gsec3; }
-      .logo2 .sec4 {
-        grid-area: gsec4; }
-      .logo2 .sec5 {
-        grid-area: gsec5; }
-      .logo2 .sec6 {
-        grid-area: gsec6; }
-      .logo2 .sec7 {
-        grid-area: gsec7; }
-      .logo2 .sec8 {
-        grid-area: gsec8; }
-      .logo2 .sec9 {
-        grid-area: gsec9; }
-      .logo2 .sec10 {
-        grid-area: gsec10; }
-      .logo2 .sec11 {
-        grid-area: gsec11; }
-      .logo2 .sec12 {
-        grid-area: gsec12; }
-      .logo2 .search {
-        grid-area: search; }
-      .logo2 footer {
-        grid-area: foot; }
-      .logo2 .logo {
-        width: 30%; }
-      .logo2 .tid_anna {
-        margin-left: 10%; }
-      .logo2 .sofa_anna {
-        max-width: 512px;
-        max-height: 384px;
-        width: 95%; } } }
+  font-size: 10pt;
+  float: left;
+  padding-left: 5px; }
+
+/*Anna kode*/
+.tid_anna {
+  margin-left: 25%; }
+
+input {
+  width: 99%;
+  height: 30px;
+  margin: 10px 0; }
+
+.sofa_anna {
+  width: 99%; }
+
+.furniture article {
+  margin-bottom: 20px; }
+
+.text_anna {
+  max-width: 512px;
+  width: 99%; }
+
+.h1_anna {
+  margin-left: 10%; }
+
+.img_anna img {
+  width: 49%; }
+
+form {
+  margin-left: 10%;
+  width: 80%;
+  margin-bottom: 10px; }
+
+/*Anders kode*/
+.andersh2 {
+  text-align: center;
+  font-size: 20px; }
+
+/*Louise kode*/
+.sofa {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 10px; }
+
+.statue {
+  padding-top: 17px;
+  padding-right: 10px; }
+
+.tekst {
+  font-size: 14pt;
+  text-align: center;
+  font-family: "Bodoni MT"; }
+
+.gsec1 {
+  padding-top: 10px; }
+
+.logo2 {
+  align-items: center; }
+
+.stol {
+  padding-bottom: 10px;
+  padding-left: 10px; }
+
+.kommode {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 30px; }
+
+/*Jessie kode*/
+.overskrift {
+  text-align: center;
+  font-family: "Amatic SC", serif, Serif;
+  font-size: 28pt;
+  font-weight: bolder; }
+
+.form {
+  float: right; }
+
+.searching {
+  width: 100%;
+  height: 20%; }
+
+.auktion0 {
+  font-weight: bolder;
+  font-size: 18pt;
+  text-align: center; }
+
+.auktion1 {
+  font-size: 16pt;
+  text-align: center; }
+
+.auktion2 {
+  font-size: 16pt;
+  text-align: center; }
+
+.auktion3 {
+  font-size: 16pt;
+  text-align: center; }
+
+.auktion4 {
+  font-size: 16pt;
+  text-align: center; }
+
+.stol {
+  align-content: center; }
+
+.bord1 {
+  align-content: center; }
+
+.bord2 {
+  align-content: center; }
+
+.decor1 {
+  align-content: center; }
+
+.decor2 {
+  float: right; }
+
+/*Grid*/
+@supports (grid-area: auto) {
+  @media screen and (min-width: 600px) {
+    body {
+      display: grid;
+      grid-template-columns: 33% 33% 33%;
+      grid-template-areas: "head head head" "gsec1 gsec2 gsec3" "gsec4 gsec5 gsec6" "gsec7 gsec8 gsec9" "foot foot foot"; }
+
+    .jessie {
+      display: grid;
+      grid-template-columns: 33% 33% 33%;
+      grid-template-areas: "head head head" "gsec1 . gsec3" "gsec4 gsec5 gsec6" "gsec7 gsec8 gsec9" "gsec10 gsec11 gsec12" "foot foot foot"; }
+
+    .furniture {
+      display: grid;
+      grid-template-columns: 25% 50% 25%;
+      grid-template-areas: "head head head" ". . search" "gsec5 gsec1 gsec3" "gsec4 gsec1 gsec2" "foot foot foot"; }
+
+    header {
+      grid-area: head; }
+
+    .sec1 {
+      grid-area: gsec1; }
+
+    .sec2 {
+      grid-area: gsec2; }
+
+    .sec3 {
+      grid-area: gsec3; }
+
+    .sec4 {
+      grid-area: gsec4; }
+
+    .sec5 {
+      grid-area: gsec5; }
+
+    .sec6 {
+      grid-area: gsec6; }
+
+    .sec7 {
+      grid-area: gsec7; }
+
+    .sec8 {
+      grid-area: gsec8; }
+
+    .sec9 {
+      grid-area: gsec9; }
+
+    .sec10 {
+      grid-area: gsec10; }
+
+    .sec11 {
+      grid-area: gsec11; }
+
+    .sec12 {
+      grid-area: gsec12; }
+
+    .search {
+      grid-area: search; }
+
+    footer {
+      grid-area: foot; }
+
+    .logo {
+      width: 30%; }
+
+    .tid_anna {
+      margin-left: 10%; }
+
+    .sofa_anna {
+      max-width: 512px;
+      max-height: 384px;
+      width: 95%; } } }
 
 /*# sourceMappingURL=styles.css.map */
