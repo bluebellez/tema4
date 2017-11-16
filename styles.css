@@ -5,7 +5,7 @@
 
 header {
   width: 100%;
-  height: 160px;
+  height: 200px;
   background-image: url("https://i.pinimg.com/originals/f5/50/09/f5500906f755887e92ee55912972e8b2.jpg");
   top: 0;
   border-radius: 5px; }
@@ -17,17 +17,23 @@ body {
 nav {
   padding-bottom: 5px; }
 
+a {
+  text-decoration: none;
+  color: black; }
+
 ul {
   list-style-type: none;
   margin: 0;
-  margin-top: 50px;
+  margin-top: 60px;
+  margin-right: 40px;
+  margin-left: auto;
   padding: 0;
   display: flex;
   justify-content: space-around; }
 
 li {
   font-family: "Amatic SC", serif, Serif;
-  font-size: 30pt;
+  font-size: 26pt;
   font-weight: bolder; }
 
 p {
@@ -40,12 +46,12 @@ footer {
   width: 100%;
   border-radius: 5px; }
 
-.logo {
-  width: 26%;
+.logo2 {
+  width: 400px;
   float: left;
   display: block;
-  margin-top: 0;
-  margin-left: 30px;
+  margin-top: 2px;
+  margin-left: 5px;
   margin-right: auto; }
 
 .foottext {
@@ -53,8 +59,9 @@ footer {
   font-size: 16pt;
   font-weight: bolder; }
 
-.fb {
-  float: right; }
+.social {
+  float: right;
+  position: relative; }
 
 .social {
   font-family: "Barlow Semi Condensed", serif, Serif;
@@ -75,13 +82,6 @@ footer {
 
 /*Anna kode*/
 /*Anders kode*/
-.andersh2 {
-  text-align: center;
-  font-size: 40px; }
-
-.andersh3 {
-  font-size: 30px; }
-
 /*Louise kode*/
 .sofa {
   padding-bottom: 20px; }
@@ -110,6 +110,9 @@ footer {
   font-family: "Amatic SC", serif, Serif;
   font-size: 28pt;
   font-weight: bolder; }
+
+.form {
+  float: right; }
 
 .auktion0 {
   font-weight: bolder;
@@ -153,7 +156,12 @@ footer {
     body {
       display: grid;
       grid-template-columns: 33% 33% 33%;
-      grid-template-areas: "head head head" "gsec1 gsec2 gsec3" "gsec4 gsec5 gsec6" "gsec7 gsec7 gsec7" "foot foot foot"; }
+      grid-template-areas: "head head head" "gsec1 gsec2 gsec3" "gsec4 gsec5 gsec6" "gsec7 gsec8 gsec9" "foot foot foot"; }
+
+    .jessie {
+      display: grid;
+      grid-template-columns: 33% 33% 33%;
+      grid-template-areas: "head head head" "gsec1 . gsec3" "gsec4 gsec5 gsec6" "gsec7 gsec8 gsec9" "gsec10 gsec11 gsec12" "foot foot foot"; }
 
     header {
       grid-area: head; }
@@ -176,40 +184,28 @@ footer {
     .sec6 {
       grid-area: gsec6; }
 
+    .sec7 {
+      grid-area: gsec7; }
+
+    .sec8 {
+      grid-area: gsec8; }
+
+    .sec9 {
+      grid-area: gsec9; }
+
+    .sec10 {
+      grid-area: gsec10; }
+
+    .sec11 {
+      grid-area: gsec11; }
+
+    .sec12 {
+      grid-area: gsec12; }
+
     footer {
       grid-area: foot; }
 
-    .FAQ {
-      display: grid;
-      grid-template-columns: 20% 60% 20%;
-      grid-template-areas: "head head head" ". gFAQ1 ." ". gFAQ2 ." ". gFAQ3 ." ". gFAQ4 ." ". gFAQ5 ." ". gFAQ6 ." ". gFAQ7 ." ". gFAQ8 ." ". gFAQ9 ." "foot foot foot"; }
-
-    .FAQsec1 {
-      grid-area: gFAQ1; }
-
-    .FAQsec2 {
-      grid-area: gFAQ2; }
-
-    .FAQsec3 {
-      grid-area: gFAQ3; }
-
-    .FAQsec4 {
-      grid-area: gFAQ4; }
-
-    .FAQsec5 {
-      grid-area: gFAQ5; }
-
-    .FAQsec6 {
-      grid-area: gFAQ6; }
-
-    .FAQsec7 {
-      grid-area: gFAQ7; }
-
-    .FAQsec8 {
-      grid-area: gFAQ8; }
-
-    .FAQsec9 {
-      grid-area: gFAQ9;
-      padding-bottom: 10px; } } }
+    .logo {
+      width: 30%; } } }
 
 /*# sourceMappingURL=styles.css.map */
