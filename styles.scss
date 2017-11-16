@@ -86,7 +86,6 @@ footer {
 }
 
 /*Anna kode*/
-//.test {color: red;}
 
 .tid_anna {
   margin-left: 25%;
@@ -111,34 +110,18 @@ input {
   width: 99%;
 }
 
+.h1_anna {
+  margin-left: 10%;
+}
+
 .img_anna img {
   width: 49%;
 }
 
-.reserver_anna {
-  width: 50%;
-  max-width: 512px;
-  margin-left: 25%;
-}
 form{
   margin-left: 10%;
   width: 80%;
   margin-bottom: 10px;
-}
-
-.flex_anna {
-  display: flex;
-  justify-content: center;
-}
-
-.knap_anna {
-  border-style: groove;
-  padding: 10px 20px;
-}
-
-.knap_anna:active {
-  position: relative;
-  top: 2px;
 }
 
 /*Anders kode*/
@@ -228,8 +211,8 @@ padding-top: 10px;
       grid-template-columns: 25% 50% 25%;
       grid-template-areas: "head head head"
                             ". . search"
-                            "gsec4 gsec1 gsec3"
-                            "gsec5 gsec1 gsec2"
+                            "gsec5 gsec1 gsec3"
+                            "gsec4 gsec1 gsec2"
                             "foot foot foot"; }
 
     header {
