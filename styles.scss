@@ -9,31 +9,29 @@ $tekst: 'Barlow Semi Condensed', serif;
 
 header {
   width: 100%;
-  height: 200px;
+  height: 300px;
   background-image: url("https://i.pinimg.com/originals/f5/50/09/f5500906f755887e92ee55912972e8b2.jpg");
   top: 0;
   border-radius: 5px;
-  display: flex;
 }
 body {
   background-color: whitesmoke;
   font-family: $overskrift, Serif;
 }
 
-nav {
-  padding-bottom: 5px;
+nav ul {
+  padding-left: 0;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
+
 a {
   text-decoration: none;
   color: black;
 }
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  //display: flex;
-  justify-content: space-around;
 }
 
 li {
@@ -41,8 +39,13 @@ li {
   font-size: 20pt;
   font-weight: bolder;
 }
+li:active {
+  text-decoration: none;
+  position: relative;
+  top: 2px;
+}
 
-p{
+p {
   font-family: $tekst, Serif;
   font-size: 14pt;
 }
@@ -53,23 +56,21 @@ footer {
   width: 100%;
   border-radius: 5px;
 }
-.logo2 {
-  width: 50%;
-  padding: 0;
-  float: left;
-  display: block;
-  margin: 0;
-}
 
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.logo img {
+  width: 30%;
+  height: 30%;
+}
 .foottext {
   font-family: $tekst, Serif;
   font-size: 16pt;
   font-weight: bolder;
 }
-.social {
-  float: right;
-  position: relative;
-}
+
 .social {
   font-family: $tekst, Serif;
   font-size: 18pt;
@@ -152,15 +153,12 @@ form{
 .tekst{
   font-size: 14pt;
   text-align: center;
-  font-family: "Bodoni MT";
+  font-family: "Bodoni MT", sans-serif;
 }
 .gsec1{
 padding-top: 10px;
 }
 
-.logo2{
-  align-items: center;
-}
 .stol{
   padding-bottom: 10px;
   padding-left: 10px;
@@ -337,9 +335,6 @@ padding-top: 10px;
     footer {
       grid-area: foot; }
 
-    .logo {
-      width: 30%; }
-
     //Anna - desktop
     .tid_anna {
       margin-left: 10%;
@@ -349,10 +344,6 @@ padding-top: 10px;
       max-width: 512px;
       max-height: 384px;
       width: 95%;
-    }
-
-    .article_anna {
-      margin: 0 10%;
     }
     //anna slut
 
