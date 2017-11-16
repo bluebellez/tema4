@@ -140,6 +140,9 @@ padding-top: 10px;
   font-size: 28pt;
   font-weight: bolder;
 }
+.form {
+  float: right;
+}
 
 .auktion0 {
   font-weight: bolder;
@@ -184,7 +187,13 @@ padding-top: 10px;
     body {
       display: grid;
       grid-template-columns: 33% 33% 33%;
-      grid-template-areas: "head head head" "gsec1 . ." "gsec4 gsec5 gsec6" "gsec7 gsec8 gsec9"
+      grid-template-areas: "head head head" "gsec1 gsec2 gsec3" "gsec4 gsec5 gsec6" "gsec7 gsec8 gsec9"
+      "foot foot foot"; }
+
+    .jessie{
+      display: grid;
+      grid-template-columns: 33% 33% 33%;
+      grid-template-areas: "head head head" "gsec1 . gsec3" "gsec4 gsec5 gsec6" "gsec7 gsec8 gsec9"
       "gsec10 gsec11 gsec12" "foot foot foot"; }
 
     header {
@@ -230,6 +239,4 @@ padding-top: 10px;
       grid-area: foot; }
 
 .logo {
-  width: 30%;
-}
-  } }
+  width: 30%; } } }
