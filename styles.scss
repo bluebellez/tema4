@@ -120,6 +120,11 @@ input {
   max-width: 512px;
   margin-left: 25%;
 }
+form{
+  margin-left: 10%;
+  width: 80%;
+  margin-bottom: 10px;
+}
 
 .flex_anna {
   display: flex;
@@ -224,7 +229,7 @@ padding-top: 10px;
       grid-template-areas: "head head head"
                             ". . search"
                             "gsec4 gsec1 gsec3"
-                            "gsec4 gsec1 gsec2"
+                            "gsec5 gsec1 gsec2"
                             "foot foot foot"; }
 
     header {
@@ -274,7 +279,7 @@ padding-top: 10px;
 
     .flex_anna {
       display: flex;
-      justify-content: flex-start;
+      justify-content: flex-end;
     }
 
   }
