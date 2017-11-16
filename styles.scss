@@ -9,7 +9,7 @@ $tekst: 'Barlow Semi Condensed', serif;
 
 header {
   width: 100%;
-  height: 160px;
+  height: 200px;
   background-image: url("https://i.pinimg.com/originals/f5/50/09/f5500906f755887e92ee55912972e8b2.jpg");
   top: 0;
   border-radius: 5px;
@@ -22,19 +22,24 @@ body {
 nav {
   padding-bottom: 5px;
 }
-
+a {
+  text-decoration: none;
+  color: black;
+}
 ul {
   list-style-type: none;
   margin: 0;
-  margin-top: 50px;
+  margin-top: 60px;
+  margin-right: 40px;
+  margin-left: auto;
   padding: 0;
   display: flex;
-  justify-content: space-around
+  justify-content: space-around;
 }
 
 li {
   font-family: $overskrift, Serif;
-  font-size: 30pt;
+  font-size: 26pt;
   font-weight: bolder;
 }
 
@@ -49,12 +54,12 @@ footer {
   width: 100%;
   border-radius: 5px;
 }
-.logo {
-  width: 26%;
+.logo2 {
+  width: 400px;
   float: left;
   display: block;
-  margin-top: 0;
-  margin-left: 30px;
+  margin-top: 2px;
+  margin-left: 5px;
   margin-right: auto;
 }
 .foottext {
@@ -62,8 +67,9 @@ footer {
   font-size: 16pt;
   font-weight: bolder;
 }
-.fb {
+.social {
   float: right;
+  position: relative;
 }
 .social {
   font-family: $tekst, Serif;
@@ -87,45 +93,14 @@ footer {
 
 /*Anna kode*/
 
-.tid_anna {
-  margin-left: 25%;
-}
-
-input {
-  width: 99%;
-  height: 30px;
-  margin: 10px 0;
-}
-
-.sofa_anna {
-  width: 99%;
-}
-
-.furniture article {
-  margin-bottom: 20px;
-}
-
-.text_anna {
-  max-width: 512px;
-  width: 99%;
-}
-
-.h1_anna {
-  margin-left: 10%;
-}
-
-.img_anna img {
-  width: 49%;
-}
-
-form{
-  margin-left: 10%;
-  width: 80%;
-  margin-bottom: 10px;
-}
-
 /*Anders kode*/
 
+.andersh2{
+  text-align: center;
+  font-size: 20px;
+
+
+}
 /*Louise kode*/
 
 .sofa{
@@ -158,6 +133,9 @@ padding-top: 10px;
   font-family: $overskrift,Serif;
   font-size: 28pt;
   font-weight: bolder;
+}
+.form {
+  float: right;
 }
 
 .auktion0 {
@@ -199,21 +177,18 @@ padding-top: 10px;
 
 /*Grid*/
 @supports (grid-area: auto) {
-
   @media screen and (min-width: 600px) {
     body {
       display: grid;
       grid-template-columns: 33% 33% 33%;
-      grid-template-areas: "head head head" "gsec1 gsec2 gsec3" "gsec4 gsec5 gsec6" "gsec7 gsec7 gsec7" "foot foot foot"; }
+      grid-template-areas: "head head head" "gsec1 gsec2 gsec3" "gsec4 gsec5 gsec6" "gsec7 gsec8 gsec9"
+      "foot foot foot"; }
 
-    .furniture {
+    .jessie{
       display: grid;
-      grid-template-columns: 25% 50% 25%;
-      grid-template-areas: "head head head"
-                            ". . search"
-                            "gsec5 gsec1 gsec3"
-                            "gsec4 gsec1 gsec2"
-                            "foot foot foot"; }
+      grid-template-columns: 33% 33% 33%;
+      grid-template-areas: "head head head" "gsec1 . gsec3" "gsec4 gsec5 gsec6" "gsec7 gsec8 gsec9"
+      "gsec10 gsec11 gsec12" "foot foot foot"; }
 
     header {
       grid-area: head; }
@@ -236,34 +211,26 @@ padding-top: 10px;
     .sec6 {
       grid-area: gsec6; }
 
-    .search {
-      grid-area: search;
-    }
+    .sec7 {
+      grid-area: gsec7  }
+
+    .sec8 {
+      grid-area: gsec8  }
+
+    .sec9 {
+      grid-area: gsec9; }
+
+    .sec10 {
+      grid-area: gsec10 }
+
+    .sec11 {
+      grid-area: gsec11 }
+
+    .sec12 {
+      grid-area: gsec12 }
 
     footer {
       grid-area: foot; }
 
-    //Anna - desktop
-    .tid_anna {
-      margin-left: 10%;
-    }
-
-    .sofa_anna {
-      max-width: 512px;
-      max-height: 384px;
-      width: 95%;
-    }
-
-    .reserver_anna {
-      width: 50%;
-      max-width: 512px;
-      margin-left: 0;
-    }
-
-    .flex_anna {
-      display: flex;
-      justify-content: flex-end;
-    }
-
-  }
-}
+.logo {
+  width: 30%; } } }
